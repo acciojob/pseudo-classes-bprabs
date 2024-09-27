@@ -1,36 +1,39 @@
 /*  your css code here. If applicable */
- :root{
-        background-color:rgb(135, 206, 235);
-       }
+ :root {
+            background-color: rgb(135, 206, 235);
+        }
 
-       p:first-child{
-        background-color: #000000;
-        color: #fff;
-       }
+        article p:first-child {
+            background-color: #000000;
+            color: white;
+        }
 
-       p:nth-child(2){
-        color: black;
-       }
-        p:nth-child(3){
+        article p:nth-child(2) {
+            color: black;
+        }
+
+       article p:nth-child(3) {
             color: red;
         }
 
-       ul li{
-        background-color: gray;
-        width: 50%;
-        padding: 10px;
-       }
+        ul li {
+            background-color: gray;
+            width: 50%;
+            padding: 10px;
+        }
 
-       ul li:nth-child(odd){
-         background-color: #fff;
-       }
-      ul li:nth-child(3){
-        background-color: pink;
-      }
-       ul li:first-child{
-        font-size: 22px;
-       }
+        ul li:nth-child(odd) {
+            background-color: #fff;
+        }
 
-       ul li:last-child{
-        font-size: 22px;
-       }
+        ul li:nth-child(3) {
+            background-color: pink;
+        }
+
+        ul li:first-child {
+            font-size: 22px;
+        }
+
+        ul li:last-child {
+            font-size: 22px;
+        }
